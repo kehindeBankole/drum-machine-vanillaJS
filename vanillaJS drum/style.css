@@ -1,0 +1,33 @@
+
+        .pads{
+            display : grid;
+            grid-template-columns: auto auto auto;
+            grid-column-gap: 15px;
+            position: relative;
+        }
+        .pads p{
+        color:white;
+        left:50%;
+        top:50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        }
+        
+        .pads > div{
+            height:400px;
+        }
+        .pad1,.pad2,.pad3,.pad4{
+            position: relative;
+        }
+        .pad1{
+            background-color: black;
+           
+        }
+        .pad2{
+            background-color: rgb(199, 173, 173);
+          
+        }
+        .pad3{
+            background-color: rgb(42, 64, 187);
+         
+        }
